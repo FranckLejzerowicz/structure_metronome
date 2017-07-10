@@ -1,7 +1,7 @@
 # structure_metronome
 A visual metronome that might not show exact tick at each beat but helps playing complicated song structures without counting
 
-Sometines a band has to play a song that has a very complicated structure and to learn it might be necessary to count, which pull band members out the song feeling and makes mistakes more likely. This visual metronome will count for you. It might not tick accurate but it will be right there with you when you  must change part as you play your complex song structure.
+Sometines a band has to play a song that has a very complicated structure and to learn it, it might be necessary to count, which pull band members out the feeling and makes mistakes more likely. This visual metronome will count for you. It might not tick perfectly accurate but it will be right there with you when you must change part as you play your complex song structure.
 
 ## usage
 ```
@@ -52,7 +52,7 @@ It is possible to multiply the duration of the displayed "times" on the screen, 
 ```python2.7 metronome.py -t 150 -p 4/Intro 8**-0.5**/Verse1 4/Verse2 2**-2**/Chorus 1/Bridge 4/Verse1 4/Outro```
 will display at 150 BPM the 4 ticks of *Intro* and then the 8 ticks for *Verse1* but twice faster than the previous 4 ticks, and the 2 ticks of *Chorus* twice slower than these *Intro* ticks
 
-TIP: don't hesitate to inscrease the terminal font size so everyone can see :D 
+TIP: don't hesitate to increase the terminal font size so everyone can see :D 
 
 ## Dependency
 python2.7
