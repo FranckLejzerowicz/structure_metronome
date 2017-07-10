@@ -48,8 +48,8 @@ But if the 4 measures of *Verse1* are made of 8 itartions of a short, quickly pl
 - *Verse1*: 4 times [1 measure each]
 - *Outro*: 2 times [1 measure each]
 
-It is possible to multiply the duration of the displayed "times" on the screen, as running
-```python2.7 metronome.py -t 150 -p 4/Intro 8**-0.5**/Verse1 4/Verse2 2**-2**/Chorus 1/Bridge 4/Verse1 4/Outro```
+It is possible to add a factor to the duration of the displayed "times" on the screen, as running
+```python2.7 metronome.py -t 150 -p 4/Intro 8-0.5/Verse1 4/Verse2 2-2/Chorus 1/Bridge 4/Verse1 4/Outro```
 will display at 150 BPM the 4 ticks of *Intro* and then the 8 ticks for *Verse1* but twice faster than the previous 4 ticks, and the 2 ticks of *Chorus* twice slower than these *Intro* ticks
 
 TIP: don't hesitate to increase the terminal font size so everyone can see :D 
